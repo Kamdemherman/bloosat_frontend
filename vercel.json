@@ -12,7 +12,7 @@
   "routes": [
     {
       "src": "/api/(.*)",
-      "dest": "https://your-laravel-cloud-app.com/api/$1"
+      "dest": "http://localhost:8000/api/$1"
     },
     {
       "src": "/(.*)",
@@ -20,6 +20,6 @@
     }
   ],
   "env": {
-    "VITE_API_BASE_URL": "https://your-laravel-cloud-app.com/api"
+    "VITE_API_BASE_URL": "http://localhost:8000/api"
   }
 }

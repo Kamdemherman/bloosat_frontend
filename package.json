@@ -6,7 +6,7 @@
   "description": "BLOOSAT Business Support System — React Frontend",
   "scripts": {
     "dev":     "vite",
-    "build":   "vite build",
+    "build":   "node node_modules/vite/bin/vite.js build",
     "preview": "vite preview",
     "lint":    "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0"
   },
