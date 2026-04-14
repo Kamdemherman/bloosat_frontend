@@ -12,7 +12,7 @@
   "routes": [
     {
       "src": "/api/(.*)",
-      "dest": "http://localhost:8000/api/$1"
+      "dest": "https://bloosat-backend-main-xjf8cd.free.laravel.cloud/api/$1"
     },
     {
       "handle": "filesystem"
